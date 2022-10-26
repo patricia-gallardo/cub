@@ -1,9 +1,9 @@
-package com.github.patriciagallardo.cub.listeners
+package no.patricia.cub.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.patriciagallardo.cub.services.MyProjectService
+import no.patricia.cub.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

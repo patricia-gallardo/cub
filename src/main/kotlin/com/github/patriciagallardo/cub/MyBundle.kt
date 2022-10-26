@@ -1,4 +1,4 @@
-package com.github.patriciagallardo.cub
+package no.patricia.cub
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

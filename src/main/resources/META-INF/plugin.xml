@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.patriciagallardo.cub</id>
-    <name>cub</name>
+    <id>no.patricia.cub</id>
+    <name>Cub</name>
     <vendor>patricia-gallardo</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.patriciagallardo.cub.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.patriciagallardo.cub.services.MyProjectService"/>
+        <applicationService serviceImplementation="no.patricia.cub.services.MyApplicationService"/>
+        <projectService serviceImplementation="no.patricia.cub.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.patriciagallardo.cub.listeners.MyProjectManagerListener"
+        <listener class="no.patricia.cub.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

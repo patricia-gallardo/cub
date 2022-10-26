@@ -1,6 +1,6 @@
-package com.github.patriciagallardo.cub.services
+package no.patricia.cub.services
 
-import com.github.patriciagallardo.cub.MyBundle
+import no.patricia.cub.MyBundle
 
 class MyApplicationService {
 

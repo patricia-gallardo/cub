@@ -1,7 +1,7 @@
-package com.github.patriciagallardo.cub.services
+package no.patricia.cub.services
 
 import com.intellij.openapi.project.Project
-import com.github.patriciagallardo.cub.MyBundle
+import no.patricia.cub.MyBundle
 
 class MyProjectService(project: Project) {
 
