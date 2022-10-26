@@ -7,12 +7,12 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="no.patricia.cub.services.MyApplicationService"/>
-        <projectService serviceImplementation="no.patricia.cub.services.MyProjectService"/>
+        <applicationService serviceImplementation="no.patricia.cub.services.CubApplicationService"/>
+        <projectService serviceImplementation="no.patricia.cub.services.CubProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="no.patricia.cub.listeners.MyProjectManagerListener"
+        <listener class="no.patricia.cub.listeners.CubProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>
